@@ -1,0 +1,65 @@
+.site-header {
+    z-index: 999;
+    background-color: #ffffff;
+    display: flex;
+    top: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
+  .site-header__nav {
+    margin-left: auto;
+  }
+  .site-header__logo-link {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    color: #173a56;
+    margin-left: 15px;
+  }
+  .site-header__btn {
+      display: none;
+  }
+  .site-header__btn--active{
+      display: none;
+  }
+  @media only screen and (max-width: $tablet) {
+      .site-header__btn {
+          display: block;
+          width: 16px;
+          height: 15px;
+          background-image: url("../../img/menu.svg");
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-color: transparent;
+          border: none;
+          transition: all 0.5s ease;
+      }
+      .site-header__btn--active {
+          width: 16px;
+          height: 15px;
+          background-image: url("../images/icons/x-icon.svg");
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-color: transparent;
+          border: none;
+          transition: all 0.5s ease;
+      }
+      .site-header__nav {
+          display: none;
+          position: absolute;
+          z-index: 5;
+          top: 50px;
+          width: 100%;
+          height: calc(105vh - 92px);
+          padding-top: 40px;
+          background: linear-gradient(360deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+          animation-name: circle-to-square;
+          animation-duration: 2s;
+          animation-iteration-count: none;
+          animation-direction: 5s;
+          animation-timing-function: ease;
+      }
+    }
+  
