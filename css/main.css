@@ -87,7 +87,7 @@
     width: 100%;
     height: calc(105vh - 92px);
     padding-top: 40px;
-    background: linear-gradient(360deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
+    background: linear-gradient(360deg, rgba(254, 252, 247, 0.504981) 0%, #fefcf7 55.94%);
     -webkit-animation-name: circle-to-square;
             animation-name: circle-to-square;
     -webkit-animation-duration: 2s;
