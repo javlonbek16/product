@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__item {
+  margin-right: 35px;
+}
+.nav__link {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  color: #83888f;
+}
+.nav__link:hover {
+  color: #000;
+}
+

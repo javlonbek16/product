@@ -1,0 +1,132 @@
+.collection__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.collection__item-img {
+  max-width: 250px;
+  height: 190px;
+}
+.collection__item-title {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333d4b;
+  margin-top: 70px;
+}
+.collection__item-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333d4b;
+  width: 255px;
+  height: 78px;
+}
+.collection__title {
+  width: 1111px;
+  height: 72px;
+  font-size: 150px;
+  line-height: 72px;
+  text-align: center;
+  color: #83888f;
+}
+.collection {
+  margin-top: 167px;
+}
+
+@media only screen and (max-width: $tablet) {
+  .collection__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .collection__item-img {
+    max-width: 250px;
+    height: 190px;
+  }
+  .collection__item-title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333d4b;
+    margin-top: 70px;
+  }
+  .collection__item-info {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #333d4b;
+    width: 255px;
+    height: 78px;
+  }
+  .collection__title {
+    width: 686px;
+    height: 72px;
+    font-size: 96px;
+    line-height: 72px;
+    text-align: center;
+    color: #83888f;
+    margin-bottom: 0;
+  }
+  .collection {
+    margin-top: 144px;
+  }
+  .collection__item-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .collection__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .collection__item-img {
+    max-width: 200px;
+    height: 151px;
+  }
+  .collection__item-title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333d4b;
+    margin-top: 70px;
+  }
+  .collection__item-info {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #333d4b;
+    width: 255px;
+    height: 78px;
+  }
+  .collection__title {
+    width: 286px;
+    height: 72px;
+    font-size: 40px;
+    line-height: 72px;
+    text-align: center;
+    color: #83888f;
+    margin-bottom: 13px;
+    margin: 0 auto;
+  }
+  .collection {
+    margin-top: 120px;
+  }
+  .collection__item-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

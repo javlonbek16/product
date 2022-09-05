@@ -1,0 +1,19 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+@media only screen and (max-width: $tablet) {
+  .container {
+    width: $tablet;
+    overflow-x: hidden;
+  }
+}
+@media only screen and (max-width: $mobile) {
+  .container {
+    width: $mobile;
+    overflow-x: hidden;
+  }
+}
