@@ -1,0 +1,39 @@
+.process {
+  background-color: red;
+  display: none;
+}
+.process__title {
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #22343d;
+}
+.process__info {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #22343d;
+  width: 542px;
+  margin: 20px auto;
+}
+.process__list {
+  display: flex;
+  justify-content: space-between;
+}
+.process__link {
+  background: #02897a;
+  border-radius: 4px;
+  padding: 15px 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+}
+.process__link:hover {
+  color: #02897a;
+  background-color: #ffff;
+  border: 1px solid #bcd0e5;
+}

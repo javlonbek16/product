@@ -1,26 +1,39 @@
 .information__item {
+  margin-bottom: 168px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 168px;
 }
 .information__infos {
   margin-bottom: 131px;
 }
-
+.information__item:nth-child(odd) {
+  display: flex;
+  flex-direction: row-reverse;
+}
 .information__info {
-  font-size: 16px;
-  line-height: 24px;
-}
-.information__item-title {
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 48px;
-}
-.information__item-info {
+  font-family: "Poppins";
+  font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 26px;
+  color: #22343d;
+}
+.information__item-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #22343D;  
+}
+.information__item-info {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px; 
+  color: #22343D;  
 }
 .information__description {
   font-weight: 400;

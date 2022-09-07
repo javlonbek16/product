@@ -1,0 +1,64 @@
+.proces__info {
+  background: #ffffff;
+  box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+  border-radius: 26.5px;
+  padding: 15px 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #2f281e;
+}
+.proces {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.proces--pitch::before {
+  content: "";
+  background-image: url("../../img/pitch.png");
+  background-size: cover;
+  width: 98px;
+  height: 98px;
+  display: block;
+  position: absolute;
+  left: 240px;
+  top: 3300px;
+}
+.information__item:nth-child(odd){
+  display: flex;
+  flex-direction: row-reverse;
+}
+.proces--website::before {
+  content: "";
+  background-image: url("../../img/website.png");
+  background-size: cover;
+  width: 98px;
+  height: 98px;
+  display: block;
+  position: absolute;
+  left: 519px;
+  top: 3665.54px;
+}
+.proces--app::before {
+  content: "";
+  background-image: url("../../img/app.png");
+  background-size: cover;
+  display: block;
+  position: absolute;
+  width: 98px;
+  height: 98px;
+  left: 1062px;
+  top: 3543.54px;
+}
+.proces--marketing::before {
+  content: "";
+  background-image: url("../../img/marketing.png");
+  background-size: cover;
+  display: block;
+  position: absolute;
+  width: 98px;
+  height: 98px;
+  left: 808px;
+  top: 3665.54px;
+}
