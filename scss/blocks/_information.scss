@@ -13,27 +13,36 @@
 }
 .information__info {
   font-family: "Poppins";
-  font-style: normal;
+  
   font-weight: 600;
   font-size: 16px;
   line-height: 26px;
   color: #22343d;
 }
+.information__text {
+  font-family: "Poppins";
+  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343d;
+  width: 486px;
+}
 .information__item-title {
-  font-family: 'Poppins';
-  font-style: normal;
+  font-family: "Poppins";
+  
   font-weight: 700;
   font-size: 32px;
   line-height: 48px;
-  color: #22343D;  
+  color: #22343d;
 }
 .information__item-info {
-  font-family: 'Poppins';
-  font-style: normal;
+  font-family: "Poppins";
+  
   font-weight: 600;
   font-size: 16px;
-  line-height: 26px; 
-  color: #22343D;  
+  line-height: 26px;
+  color: #22343d;
 }
 .information__description {
   font-weight: 400;
@@ -60,26 +69,66 @@
 @media only screen and (max-width: $tablet) {
   .information__item {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: column;
   }
-  .information__item-img {
-    width: 350px;
+  .information__infos {
+    margin-bottom: 131px;
   }
   .information__info {
+    font-family: "Poppins";
+    
+    font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 26px;
+    color: #22343d;
+  }
+  .information__text {
+    font-family: "Poppins";
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343d;
+    width: 486px;
   }
   .information__item-title {
+    font-family: "Poppins";
+    
+    font-weight: 700;
     font-size: 32px;
     line-height: 48px;
+    color: #22343d;
   }
-  .information__info-wrapper {
-    text-align: center;
+  .information__item-info {
+    font-family: "Poppins";
+    
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343d;
   }
   .information__description {
-    width: 334px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 486px;
   }
-  .information__info-wrapper {
-    margin: 0 auto;
+
+  .information__with-icon-text {
+    width: 365px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .information__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+  .information__img {
+    width: 35px;
+    height: 35px;
   }
 }

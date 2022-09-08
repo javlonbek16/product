@@ -10,10 +10,4 @@
     max-width: $tablet;
   }
 }
-@media only screen and (max-width: $mobile) {
-  .container {
-    margin: 0 auto;
-    padding: 0 15px;
-    max-width: $mobile;
-  }
-}
+
